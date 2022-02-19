@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="./styles/root.css"
+		/>
+		<title>Quiz App</title>
+		<style
+			src="./styles/root.css"
+			rel="stylesheet"
+		></style>
+	</head>
+
+	<body>
+		<iframe
+			class="col-12 quiz-container-bg"
+			src="./components/Header.html"
+			frameborder="0"
+		></iframe>
+		<!--------------------------------Header-------------------------------->
+		<section
+			class="quiz-main-container quiz-container-bg col-12"
+		>
+			<div
+				class="indexContainer column-al-sp-around"
+			>
+				<h1>Quiz Time</h1>
+				<iframe
+					class="iframe-quiz-container col-11"
+					src="./components/StartingPage.html"
+					name="iframe-quiz"
+					frameborder="0"
+				></iframe>
+			</div>
+		</section>
+		<script src="../src/scripts/index.js"></script>
+
+		<!--------------------------------Footer-------------------------------->
+		<iframe
+			class="quiz-container-bg col-12 iframe-footer"
+			src="./components/Footer.html"
+			frameborder="0"
+		></iframe>
+	</body>
+</html>
