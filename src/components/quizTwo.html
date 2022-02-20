@@ -10,10 +10,13 @@
 			<div
 				class="padding-small-card shade classA translateOne"
 			>
+			 <div
+				class="padding-small-card shade flex-column-al-center translateOne margin-normal-bottom back-btn"
+		>score: 2/5 </div>
 					<div
 						class="quiz-container padding-small-card shade"
 					>
-						<p>
+						<p class="padding-normal">
 							Lorem ipsum, dolor sit amet consectetur
 							adipisicing elit. Eius cumque maiores a alias
 							repellat porro odit fugit possimus obcaecati
@@ -23,16 +26,34 @@
 					</div>
 					<div class="padding-normal card-selector-text">
 						<div class="option-container">
-							<button class="options quiz-container padding-small-card shade imgTransition">Option 1</button>
-							<button class="options quiz-container padding-small-card shade imgTransition" value="true">Option 2</button>
-              <button class="options quiz-container padding-small-card shade imgTransition">Option 3</button>
-							<button class="options quiz-container padding-small-card shade imgTransition">Option 4</li>
+							<button class="options quiz-container padding-small-card imgTransition" value="true">Option 1</button>
+							<button class="options quiz-container padding-small-card imgTransition">Option 2</button>
+							<button class="options quiz-container padding-small-card imgTransition">Option 3</button>
+							<button class="options quiz-container padding-small-card imgTransition">Option 4</li>
 						</div>
 					</div>
+
+					<a
+					class="col-12"
+					href="../components/Result.html"
+					target="iframe-quiz"
+				>
+					<div
+						class="padding-small-card shade flex-column-al-center translateOne margin-normal-top imgTransition back-btn"
+					>
+						Result
+					</div>
+				</a>
+
+					<div
+					class="padding-small-card shade flex-column-al-center translateOne margin-normal-top back-btn imgTransition col-12"
+					onclick="history.back()"
+				>
+					Go Back
+				</div>
 			</div>
-      <div
-				class="padding-small-card shade classA translateOne back-btn"
-			onclick="history.back()">Go Back</div>
+
+       
 		</div>
 	</body>
 </html>
