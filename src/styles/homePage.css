@@ -24,7 +24,12 @@
 }
 
 .quiz-container {
-	width: 25rem;
+	width: 32rem;
+	text-align: center;
+}
+
+.header-quiz-text {
+	text-align: center;
 }
 
 .padding-small-card {
