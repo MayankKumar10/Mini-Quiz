@@ -29,11 +29,7 @@
 }
 
 .quiz-result-img {
-	width: 24rem;
+	width: 30rem;
 	height: 12rem;
 	color: var(--color-text-1);
-}
-
-.ab {
-	display: flex;
 }
